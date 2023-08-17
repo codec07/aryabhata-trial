@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: rgb(200, 230, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-img {
+    height: 30px;
+    width: auto;
+}
+
+.mainTxt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navTxt {
+    margin-left: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 20px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNav {
+    width: auto;
+    height: auto;
+    background-color: rgb(200, 230, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mnavBtn {
+    font-size: x-large;
+    margin: 5px 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 7px;
+    color: black;
+}
+
+.mnavBtn:hover {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baseImg {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.imgDiv {
+    padding: 30px;
+}
+
+.textbox {
+    padding: 30px;
+}
+
+.bodyHolder {
+    padding-right: 90px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    margin-bottom: 16px;
+}
+
+.body {
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.toolbtn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.btn:hover {
+    background-color: rgb(200, 230, 255)
+}
+
+.mleft {
+    margin-left: 5px;
+}
+
+.containDisc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toolbox {
+    width: 96%;
+    height: auto;
+    background-color: rgb(200, 230, 255);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.mainbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+}
+
+.fullbar {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(141, 255, 164);
+    transition: all 1s;
+}
+
+.expandbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.webby_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webby {
+    width: 60%;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 18px;
+    border-radius: 7px;
+}
+
+.webby_txt {
+    font-family: 'Raleway', sans-serif;
+}
+
+.webby_txt a {
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bodyHolder {
+        padding-right: 0px;
+    }
+
+    .textbox {
+        text-align: center;
+    }
+
+    .webby {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .baseImg {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .bodyHolder {
+        padding-right: 0px;
+    }
+
+    .webby {
+        width: 90%;
+    }
+}
