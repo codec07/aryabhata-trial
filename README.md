@@ -73,7 +73,7 @@ Source Code: Available on GitHub
 
 ---
 
-Hosted On URL: https://aaryabhata.pages.dev/
+Hosted On URL: https://aryabhata-trial.pages.dev/
 
 ---
 
